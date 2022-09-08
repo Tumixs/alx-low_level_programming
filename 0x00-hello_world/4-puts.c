@@ -1,8 +1,13 @@
-/* 
- *The program will print "Programming is like building a m*ultilingual puzzle
-*/
-int main()
+/*
+ * This programme will print "Programming is like building a multilingual
+ *puzzle
+ */
+/**
+ * main - The program begins here
+ * Return: returns 0
+ */
+int main(void)
 {
-putchar("\"Programming is like building a multilingual puzzle");
-return 0;
+	printf("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
