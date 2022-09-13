@@ -1,4 +1,4 @@
-/* The program will print _putchar and a new line */
+/* The program will print "_putchar" and a new line */
 #include <stdio.h>
 /**
  * main - program execution begins here
