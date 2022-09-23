@@ -1,17 +1,22 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
- * reverse_array - reverse an array of string
- * @a: array
- * @n: size of aaray
- */
+* reverse_array -  a function that reverses the content of an array of integers
+* @a: a pointer to the array of integers that will be reversed
+* @n: the number of elements in the array
+* Return: returns 0
+*/
 void reverse_array(int *a, int n)
 {
-		int i;
+	int i, j, k;
+	j = n - 1;
 
-		for (i = n - 1; i >= 0; i--)
-		{
-			_putchar(i);
-			_putchar(',');
-		}
-		_putchar(30);
+	for (i = 0; i < n / 2; i++)
+	{
+		k = a[i];
+		a[i] = a[j];
+		a[j] = k;
+		j--;
+	}
 }
