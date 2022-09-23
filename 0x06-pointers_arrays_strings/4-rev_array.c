@@ -18,5 +18,4 @@ void reverse_array(int *a, int n)
 		a[j] = k;
 		j--;
 	}
-	return (0);
 }
