@@ -9,18 +9,18 @@ char *rot13(char *s)
 {
 	int i;
 	int j;
-	char *in = "ABCDEFGHIJKLMabcdefghijklm";
-	char *out = "NOPQRSTUVWXYZnopqrstuvwxyz";
+	char *value = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char *encode = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; s[i]; i++)
 	{
-		for (j = 0; j < 26; j++)
+		for (j = 0; j < 52; j++)
 		{
-			if (s[i] == in[j])
-				s[i] = out[j];
-			else
-				if (s[i] == out[j])
-					s[i] = in[j];
+			if (s[i] == value[j])
+			{
+				s[i] = encode[j];
+				break;
+			}
 		}
 	}
 	return (s);
