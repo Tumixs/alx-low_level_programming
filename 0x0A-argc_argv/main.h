@@ -4,5 +4,6 @@
 #include <stdio.h>
 void _putchar(char c);
 #include <stdlib.h>
+#include <string.h>
 
 #endif
