@@ -16,17 +16,21 @@ char *str_concat(char *s1, char *s2)
 	int l = 0;
 	char *tmp;
 
-	while (s1[i])
-		i++;
-	while (s2[j])
-		j++;
+	if (s1 != NULL)
+		while (s1[i])
+			i++;
+	if (s1 != NULL)
+		while (s2[j])
+			j++;
 	tmp = malloc((i + j) * sizeof(char));
 	if (tmp == NULL)
 		return (NULL);
-	for (; k < (i); k++)
-		*(tmp + k) = *(s1 + k);
-	for (; k < (i + j); k++, l++)
-		*(tmp + k) = *(s2 + l);
+	if (s1 != NULL)
+		for (; k < (i); k++)
+			*(tmp + k) = *(s1 + k);
+	if (s2 != NULL)
+		for (; k < (i + j); k++, l++)
+			*(tmp + k) = *(s2 + l);
 	*(tmp + k) = '\0';
 	return (tmp);
 }
