@@ -1,15 +1,15 @@
 #include "main.h"
 
-/*
+/**
  * _strdup - copies a string to a new memory location
  * @str: poninter to string to copy
  *
- * Return: returns a pointer to the new memory location containing copied string
+ * Return: returns a pointer to the new memory location
  */
 char *_strdup(char *str)
 {
 	int i;
-	long unsigned int j;
+	unsigned long int j;
 	char *tmp;
 
 	if (str == NULL)
