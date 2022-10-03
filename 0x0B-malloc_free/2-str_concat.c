@@ -16,17 +16,19 @@ char *str_concat(char *s1, char *s2)
 	int l = 0;
 	char *tmp;
 
+	if (s1 == NULL && s2 == NULL)
+		return (NULL);
 	if (s1 != NULL)
 		while (s1[i])
 			i++;
-	if (s1 != NULL)
+	if (s2 != NULL)
 		while (s2[j])
 			j++;
-	tmp = malloc((i + j) * sizeof(char));
+	tmp = malloc((i + j - 1) * sizeof(char));
 	if (tmp == NULL)
 		return (NULL);
 	if (s1 != NULL)
-		for (; k < (i); k++)
+		for (; k < i; k++)
 			*(tmp + k) = *(s1 + k);
 	if (s2 != NULL)
 		for (; k < (i + j); k++, l++)

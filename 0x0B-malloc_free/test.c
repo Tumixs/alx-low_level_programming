@@ -6,10 +6,22 @@
 *
 * Return: Always 0.
 */
+int printer(char *s);
 int main(void)
 {
 char *s;
 s = str_concat("Betty ", "Holberton");
+printer(s);
+s = str_concat("HELLO ", NULL);
+printer(s);
+s = str_concat(NULL, "HELLO");
+printer(s);
+s = str_concat(NULL, NULL);
+printer(s);
+return (0);
+}
+int printer(char *s)
+{
 if (s == NULL)
 {
 printf("failed\n");
