@@ -1,6 +1,12 @@
 #include "main.h"
 
 /**
+ * _calloc - allocates memory for an array
+ * memory is initilaised to zero
+ * @nmemb: nnumber of members in array
+ * @size: size of each member
+ *
+ * Return: returns pointer to memory
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
