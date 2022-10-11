@@ -1,17 +1,23 @@
-#include "dog.h"
-
+#include "main.h"
 /**
- * new_dog - creates a new dog
- * @name: struct member
- * @age: struct member
- * @owner: struct member
- *
- * Description: s
- * Return: returns the created struct
- * else returns NULL if the function fails
- */
+ * new_dog - creates a new dog.
+ * @name: pointer to dog's name
+ * @age: age
+ * @owner: pointer to dog's owner
+ * Return: pointer to a new dog of type dog_t
+ **/
 dog_t *new_dog(char *name, float age, char *owner)
 {
+	int nameLen, ownerLen, i;
+	dog_t *d1;
+
+	d1 = (dog_t *)malloc(sizeof(dog_t));
+	if (d1 == NULL)
+		return (NULL);
+	nameLen = ownerLen = 0;
+	while (name[nameLen++])
+		;
+	while (owner[ownerLen++])
 		;
 	d1->name = malloc(nameLen * sizeof(d1->name));
 	if (d1->name == NULL)
