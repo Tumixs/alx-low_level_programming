@@ -3,7 +3,6 @@
  * list_len - determines the number of elements in
  * in list_t
  *@h: first node of list
-
  * Return: returns the number of elements
  */
 size_t list_len(const list_t *h)
