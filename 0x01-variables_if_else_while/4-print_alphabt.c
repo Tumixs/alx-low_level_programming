@@ -16,12 +16,12 @@ int main(void)
 			continue;
 		}
 		{
-		_putchar(x);
+		putchar(x);
 		if (x == 'z')
 			break;
 		}
 		x++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }

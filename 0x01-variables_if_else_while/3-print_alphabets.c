@@ -12,10 +12,10 @@ int main(void)
 	{
 		if (x == 'z')
 			x = 'A';
-		_putchar(x);
+		putchar(x);
 		x++;
 	}
-		_putchar(x);
-	_putchar('\n');
+		putchar(x);
+	putchar('\n');
 	return (0);
 }
