@@ -13,12 +13,14 @@ int main(void)
 
 	while (x != 'Z')
 	{
-		if (x == 'z')
-			x = 'A';
 		putchar(x);
 		x++;
+		if (x > 'z')
+		{
+			x = 'A';
+		}
 	}
-		putchar(x);
+	putchar(x);
 	putchar('\n');
 	return (0);
 }
