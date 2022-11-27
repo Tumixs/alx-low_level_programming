@@ -20,6 +20,7 @@ int main(void)
 			x = 'A';
 		}
 	}
+
 	putchar(x);
 	putchar('\n');
 	return (0);

@@ -11,6 +11,8 @@ Title | Description
 [5. Numbers](./5-print_numbers.c) | Prints all single digits of base 10.
 [6. Numberz](./6-print_numberz.c) | prints all single digits of base 10.
 [7. Smile in the mirror](./7-print_tebahpla.c) | prints the lowercase alphabets in reverse order.
+[8. Hexadecimal](./8-print_base16.c) | Prints the base 16 numbers.
+[9. Patience, persistence and perspiration make an unbeatable combination for success](./9-print_comb.c) | Prints all posiible single digit numbers separated by a comma. 
 
 ## Resources
 
