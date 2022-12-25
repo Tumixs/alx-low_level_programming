@@ -17,13 +17,10 @@ int main(void)
 		{
 			{
 				putchar(k);
-				if (i == i + 1)
+				if (i >= i + 1)
 					continue;
 				else
-					if (i > i + 1)
-						continue;
-					else
-						putchar(i);
+					putchar(i);
 				if ((k + 1) != '9')
 				{
 					putchar(',');
