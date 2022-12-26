@@ -1,8 +1,11 @@
-/* The program will print "_putchar" and a new line */
 #include "main.h"
 /**
- * main - program execution begins here
- * Return: returns 0
+ * main - program start
+ *
+ * Description: prints _putchar to standard output
+ * standard Libarary is not used.
+ * uses putchar to print a single char
+ * Return: 0
  */
 int main(void)
 {
@@ -15,5 +18,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
