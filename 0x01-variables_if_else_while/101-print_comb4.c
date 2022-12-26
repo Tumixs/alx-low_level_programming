@@ -6,22 +6,22 @@
  */
 int main(void)
 {
-	int i = '0';
-	int j = '0';
-	int k = '0';
+	int i = 0;
+	int j = 0;
+	int k = 0;
 
-	for (; i <= '9'; i++)
+	for (; i <= 9; i++)
 	{
 		j = i + 1;
-		while (j <= '9')
+		while (j <= 9)
 		{
 			k = j + 1;
-			while (k <= '9')
+			while (k <= 9)
 			{
-				putchar(i);
-				putchar(j);
-				putchar(k);
-				if ((i + 2) != '9')
+				putchar(i + '0');
+				putchar(j + '0');
+				putchar(k + '0');
+				if ((i + 2) != 9)
 				{
 					putchar(',');
 					putchar(' ');
