@@ -9,5 +9,6 @@ Title | Description
 [2. 10 x alphabet](./2-print_alphabet_x10.c) |  prints the lowercase alphabet 10 times and a newline.
 [3. islower](./3-islower.c) | Checks for lowercase characters.
 [4. isalpha](./4-isalpha.c) | checks for alphabetic character.
+[5. sign](./5-sign.c) | prints the sign of a number.
 
 ### Resources
