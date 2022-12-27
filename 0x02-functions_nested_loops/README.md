@@ -12,5 +12,6 @@ Title | Description
 [5. sign](./5-sign.c) | prints the sign of a number.
 [6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](./6-abs.c) | computes the absolute value of an integer.
 [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./7-print_last_digit.c) | prints the last digit of a number.
+[8. I'm federal agent Jack Bauer, and today is the longest day of my life](./8-24_hours.c) | Prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
 ### Resources
