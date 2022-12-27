@@ -10,5 +10,6 @@ Title | Description
 [3. islower](./3-islower.c) | Checks for lowercase characters.
 [4. isalpha](./4-isalpha.c) | checks for alphabetic character.
 [5. sign](./5-sign.c) | prints the sign of a number.
+[6. There is no such thing as absolute value in this world. You can only estimate what a thing is worth to you](./6-abs.c) | computes the absolute value of an integer.
 
 ### Resources
