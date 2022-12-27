@@ -14,5 +14,6 @@ Title | Description
 [7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important](./7-print_last_digit.c) | prints the last digit of a number.
 [8. I'm federal agent Jack Bauer, and today is the longest day of my life](./8-24_hours.c) | Prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 [9. Learn your times table](./9-times_table.c) | prints the 9 times table, starting at 0.
+[10. a + b](./10-add.c) | Adds two integers and returns the result.
 
 ### Resources
