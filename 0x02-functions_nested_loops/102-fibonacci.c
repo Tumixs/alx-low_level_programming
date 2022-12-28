@@ -18,7 +18,7 @@ int main(void)
 		i = j;
 		j = sum;
 	}
-	printf("%ld, ", sum);
+	printf("%ld", sum);
 	printf("\n");
 	return (0);
 }
