@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	unsigned long int i = 0, j = 1, sum, n;
+	unsigned long int i = 0, j = 1, sum = 0, n;
 
 	while (1)
 	{
