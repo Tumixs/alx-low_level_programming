@@ -16,5 +16,6 @@ Title | Description
 [9. Learn your times table](./9-times_table.c) | prints the 9 times table, starting at 0.
 [10. a + b](./10-add.c) | Adds two integers and returns the result.
 [11. 98 Battery Street, the OG](./11-print_to_98.c) | Prints all natural numbers from n to 98, and a new line.
+[12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself](./100-times_table.c) | Prints n times table, starting with 0.
 
 ### Resources
