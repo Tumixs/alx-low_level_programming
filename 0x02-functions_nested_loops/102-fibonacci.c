@@ -11,14 +11,15 @@ int main(void)
 
 	printf("%ld, ", i);
 	printf("%ld, ", j);
-	for (n = 0; n < 47; n++)
+	for (n = 0; n < 48; n++)
 	{
 		sum = i + j;
-		printf("%ld, ", sum);
+		printf("%ld", sum);
 		i = j;
 		j = sum;
+		if (n < 47)
+			printf(", ");
 	}
-	printf("%ld", sum);
 	printf("\n");
 	return (0);
 }
