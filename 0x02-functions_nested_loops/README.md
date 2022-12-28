@@ -18,6 +18,7 @@ Title | Description
 [11. 98 Battery Street, the OG](./11-print_to_98.c) | Prints all natural numbers from n to 98, and a new line.
 [12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself](./100-times_table.c) | Prints n times table, starting with 0.
 [13. Nature made the natural numbers; All else is the work of women](./101-natural.c) | Prints the sum of natural numbers that are multiples of 3 or 5 and below 1024.
-[14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A](./102-fibonacci.c) Prints the first 50 Fibonacci numbers and a newline.
+[14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A](./102-fibonacci.c) | Prints the first 50 Fibonacci numbers and a newline.
+[15. Even Liber Abbaci](./103-fibonacci.c) | computes the sum of all even fibonacci sequence not greater than 4m.
 
 ### Resources
