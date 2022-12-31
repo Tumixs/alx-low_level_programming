@@ -1,8 +1,8 @@
+/* Derefrence a pointer*/
 #include "main.h"
 /**
- * reset_to_98 - updates n to 98
- * Return: returns 0
- * @n: arg
+ * reset_to_98 - update the value pointed to by *n
+ * @n: pointer
  */
 void reset_to_98(int *n)
 {
