@@ -6,13 +6,13 @@
  */
 void print_array(int *a, int n)
 {
-	int i = 1;
+	int i = 0;
 
-	if (n < 1)
-		return;
 	for (; i < n; i++)
 	{
-		printf("%d, ", *a++);
+		printf("%d", *a++);
+		if (i != n - 1)
+			printf(" ,");
 	}
-	printf("%d\n", *a++);
+	printf("\n");
 }
