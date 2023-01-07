@@ -13,3 +13,5 @@ Title | Description
 [8. You are so much sunshine in every square inch](./8-print_square.c) | Prints a square on the terminal.
 [9. Fizz-Buzz](./9-fizz_buzz.c) | Prints the numbers from 1 to 100. For multiples of 3 prints *Fuzz* instead. For mutilples of 5 prints *Buzz*. For numbers that are multiples of both 3 and 5 prints *FizzBuzz*
 [10. Triangles](./10-print_triangle.c) | C Function that Prints a triangle.
+[11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic](./100-prime_factor.c) | A program that finds and prints the largest prime factor of the number 612852475143.
+[12. Numbers have life; they're not just symbols on paper](./101-print_number.c) | A function that prints an integer.

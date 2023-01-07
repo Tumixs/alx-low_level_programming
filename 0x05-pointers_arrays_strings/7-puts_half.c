@@ -6,18 +6,16 @@
 void puts_half(char *str)
 {
 	int i = 0;
-	int j;
-	int index = 0;
+	int j = 0, n;
 
-	while (*str++)
+	while (str[j++])
 		i++;
-	printf("%d\n", i);
-	if (i % 2 == 0)
-		j = i / 2;
+	if ((i % 2) == 0)
+		n = i / 2;
 	else
-		j = (i + 1) / 2;
-	printf("%d\n", j);
-	for (index = j; index < i; index++)
-		_putchar(str[index]);
+		n = (i + 1) / 2;
+	for (j = n; j < i; j++)
+		_putchar(str[j]);
+
 	_putchar('\n');
 }
