@@ -8,3 +8,4 @@ Title | Description
 [3. I do not fear computers. I fear the lack of them](./3-puts.c) | A function that prints a string followed by a newline to the standard output.
 [4. I can only go one way. I've not got a reverse gear](./4-print_rev.c) | prints a string in reverse, followed by a newline.
 [5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes](./5-rev_string.c) | A function that reverses a string.
+[6. Half the lies they tell about me aren't true](./6-puts2.c) | Prints even characters of a string starting with the first character.
