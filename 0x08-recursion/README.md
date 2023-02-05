@@ -1,12 +1,11 @@
-<h1> C- Recursion</h1>
+# C- Recursion
 
-<h2> Tasks</h2>
+## Tasks
 
-<ul>
-<li><b>0-puts_recurion.c</b>  A function that prints a string followed by a new line.</li>:w
+Title | Description
+----- | -----------
+[0-puts_recurion.c](./0-puts_recursion.c) | A function that prints a string followed by a new line.
+[1-print_rev_recursion.c]() | A function that prints a string in reverse
+[2-strlen_recursion.c]() | A function that returns the length of a string
 
-<li><b>1-print_rev_recursion.c</b> A function that prints a string in reverse</li>
-<li>2-strlen_recursion.c A function that returns the length of a string</li>
-</ul>
-
-<h3> Resources</h3>
+### Resources
