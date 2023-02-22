@@ -1,41 +1,23 @@
+/* Project 0x0E: task 4 */
 #include "dog.h"
 /**
- * new_dog - creates a new dog.
- * @name: pointer to dog's name
- * @age: age
- * @owner: pointer to dog's owner
- * Return: pointer to a new dog of type dog_t
- **/
+ * new_dog - creates a new dog of type struct dog
+ * @name: member 1
+ * @age: memeber 2
+ * @owner: member 3
+ *
+ * Return: returns a pointer to a struct dog_t
+ */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	int nameLen, ownerLen, i;
-	dog_t *d1;
+	dog_t *newdogptr;
 
-	d1 = (dog_t *)malloc(sizeof(dog_t));
-	if (d1 == NULL)
+	newdogptr = malloc(sizeof(dog_t));
+	if (newdogptr == NULL)
 		return (NULL);
-	nameLen = ownerLen = 0;
-	while (name[nameLen++])
-		;
-	while (owner[ownerLen++])
-		;
-	d1->name = malloc(nameLen * sizeof(d1->name));
-	if (d1->name == NULL)
-	{
-		free(d1);
-		return (NULL);
-	}
-	for (i = 0; i <= nameLen; i++)
-		d1->name[i] = name[i];
-	d1->age = age;
-	d1->owner = malloc(ownerLen * sizeof(d1->owner));
-	if (d1->owner == NULL)
-	{
-		free(d1->name);
-		free(d1);
-		return (NULL);
-	}
-	for (i = 0; i <= ownerLen; i++)
-		d1->owner[i] = owner[i];
-	return (d1);
+	newdogptr->name = name;
+	newdogptr->age = age;
+	newdogptr->owner = owner;
+
+	return (newdogptr);
 }
