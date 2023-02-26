@@ -3,8 +3,6 @@
 /**
  * get_op_func - gets the required function for the operator
  * @s: operator
- * @a: integer
- * @b: integer
  *
  * Return: returns a pointer to a function taking two params and
  * returning an int.
