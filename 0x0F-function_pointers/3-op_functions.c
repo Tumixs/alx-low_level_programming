@@ -1,11 +1,12 @@
+/* Operation functons */
 #include "3-calc.h"
 
 /**
- * op_add - sums two integers
- * @a: integer
- * @b: integer
+ * op_add - adds two integers
+ * @a: integer 1
+ * @b: integer 2
  *
- * Return: returns the sum of a and b
+ * Return: returns the sum of the two ints
  */
 int op_add(int a, int b)
 {
@@ -14,10 +15,10 @@ int op_add(int a, int b)
 
 /**
  * op_sub - finds the difference of two integers
- * @a: integer
- * @b: integer
+ * @a: integer 1
+ * @b: integer 2
  *
- * Return: returns the difference of a and b
+ * Return: returns the difference of the two integers
  */
 int op_sub(int a, int b)
 {
@@ -25,11 +26,11 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - calculates the product of two integers
- * @a: integer
- * @b: integer
+ * op_mul - finds the product of two integers
+ * @a: integer 1
+ * @b: integer 2
  *
- * Return: returns the product of a and b
+ * Return: returns the product of the two integers
  */
 int op_mul(int a, int b)
 {
@@ -37,11 +38,11 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - calculates the qoutient (division) of two integers
- * @a: integer
- * @b: integer
+ * op_div - finds the qoutient of two integers
+ * @a: integer 1
+ * @b: integer 2
  *
- * Return: returns the reuslt of the division of a by b
+ * Return: returns the qoutient ofthe division
  */
 int op_div(int a, int b)
 {
@@ -49,11 +50,11 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - calculates the modulus of two intgers
- * @a: integer
- * @b: integer
+ * op_mod - finds the modulus (remainder) of two integers
+ * @a: integer 1
+ * @b: integer 2
  *
- * Return: returns the remainder of the division of a by b
+ * Return: returns the modulus
  */
 int op_mod(int a, int b)
 {

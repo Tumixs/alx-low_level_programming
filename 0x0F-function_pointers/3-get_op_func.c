@@ -1,29 +1,26 @@
+/* Determines the required function */
 #include "3-calc.h"
-
 /**
- * get_op_func - selects
+ * get_op_func - gets the required function for the operator
  * @s: operator
+ * @a: integer
+ * @b: integer
  *
- * Return: returns operator
+ * Returns: returns the final solution
  */
-int (*get_op_func(char *s))(int, int)
+int (*get_op_func(char *s))(int a, int b)
 {
 	op_t ops[] = {
-		{"+", op_add},
-		{"-", op_sub},
-		{"*", op_mul},
-		{"/", op_div},
-		{"%", op_mod},
-		{NULL, NULL}
+	    {"+", op_add},
+	    {"-", op_sub},
+	    {"/", op_div},
+	    {"*", op_mul},
+	    {"%", op_mod},
+	    {NULL, NULL},
 	};
-
 	int i = 0;
 
-	while (i < 5)
-	{
-		if (*ops[i].op == *s) /*loops through struct to find matching operator*/
-			return (ops[i].f); /*returns function name for operator*/
+	while (ops[i].op != NULL && *ops[i].op != *s)
 		i++;
-	}
-	return (NULL);
+	return (ops[i].f);
 }
