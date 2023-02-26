@@ -6,7 +6,8 @@
  * @a: integer
  * @b: integer
  *
- * Returns: returns the final solution
+ * Return: returns a pointer to a function taking two params and
+ * returning an int.
  */
 int (*get_op_func(char *s))(int a, int b)
 {

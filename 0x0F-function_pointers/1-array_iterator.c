@@ -1,7 +1,9 @@
 /* Project 0x0E: Task 1 */
 #include "function_pointers.h"
 /**
- * array_iterator - executes a function given as parameter on each element of an array
+ * array_iterator - executes a function given as parameter on each
+ * element of an array
+ * @array: array of integers
  * @size: size of the array
  * @action: pointer to function to execute
  */
