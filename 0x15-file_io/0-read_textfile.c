@@ -1,17 +1,16 @@
-/**
- * Project 0x15: File I/O
- * Task 0.
+/*
+ * Project 0x15: File I/O - Task 0
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"
 /**
- * read_textfile - reads a text file and /
- * prints it to the posix stdout
- * @filename: name of file to read
- * @letters: number of letters to read
+ * read_textfile - reads a textfile and prints to POSIX stdout
  *
- * Return: returns the number of characters read,
- * returns 0 if error occurs.
+ * @filename: name of textfile
+ * @letters: number of characters to print
+ *
+ * Return: returns the number of charcaters printed,
+ * if error returns 0.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
