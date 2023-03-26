@@ -1,4 +1,4 @@
-# :ocotcat:0x12. C- Singly Linked Lists
+# :octocat:0x12. C- Singly Linked Lists
 
 ## :information_source: Tasks
 
