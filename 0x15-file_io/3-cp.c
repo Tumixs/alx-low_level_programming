@@ -4,6 +4,7 @@
  */
 #include "main.h"
 void cp(char *, char *);
+void *alloc_mem(void);
 /**
  * main - program start
  * @total_file: total args
@@ -21,6 +22,7 @@ int main(int total_file, char **file)
 	cp(file[1], file[2]);
 	return (0);
 }
+
 /**
  * cp - copies one file to another
  * @file_from: file to be copied
@@ -30,28 +32,56 @@ int main(int total_file, char **file)
 void cp(char *file_from, char *file_to)
 {
 	ssize_t o1, o2, w, r, c1, c2;
-	char buffer[1024];
 
 	o1 = open(file_from, O_RDONLY);
-	r = read(o1, buffer, 1024);
-	if (o1 == -1 || r == -1)
+	o2 = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
+	if (o1 == -1)
 	{
-		dprintf(2, "Error: can't read from file %s", file_from);
+		dprintf(2, "Error: can't read from file %s\n", file_from);
 		exit(98);
 	}
-
-	o2 = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	w = write(o2, buffer, 1024);
-	if (o2 == -1 || w == -1)
+	if (o2 == -1)
 	{
-		dprintf(2, "Error: can't write to %s", file_to);
+		dprintf(2, "Error: can't write to %s\n", file_to);
 		exit(99);
 	}
+	while (r)
+	{
+		r = read(o1, alloc_mem(), 1024);
+		if (r == -1)
+		{
+			dprintf(2, "Error: can't read from file %s\n", file_from);
+			exit(98);
+		}
+
+		w = write(o2, alloc_mem(), 1024);
+		if (w == -1)
+		{
+			dprintf(2, "Error: can't write to %s\n", file_to);
+			exit(99);
+		}
+	}
+
 	c1 = close(o1);
 	if (c1 == -1)
-		dprintf(2, "Error: can't close fd %ld", o1);
+		dprintf(2, "Error: can't close fd %ld\n", o1);
 
 	c2 = close(o2);
 	if (c2 == -1)
-		dprintf(2, "Error: can't close fd %ld", o2);
+		dprintf(2, "Error: can't close fd %ld\n", o2);
+}
+
+/**
+ * alloc_mem - allocates memory(1024 bytes)
+ *
+ * Return: returns a pointer to the allocated memory
+ */
+void *alloc_mem(void)
+{
+	char *buf;
+
+	buf = malloc(sizeof(char) * 1024);
+	if (buf == NULL)
+		return (NULL);
+	return (buf);
 }

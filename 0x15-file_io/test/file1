@@ -1,0 +1,342 @@
+../../:
+total 88
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x00-hello_world
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Feb 10 10:07 0x01-variables_if_else_while
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 29 13:03 0x02-functions_nested_loops
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 29 13:51 0x03-debugging
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 30 12:42 0x04-more_functions_nested_loops
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Jan 14 08:11 0x05-pointers_arrays_strings
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x06-pointers_arrays_strings
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x07-pointers_arrays_strings
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Feb 10 10:01 0x08-recursion
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Feb 11 18:19 0x09-static_libraries
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x0A-argc_argv
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x0B-malloc_free
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x0C-more_malloc_free
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x0D-preprocessor
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Feb 22 20:02 0x0E-structures_typedef
+drwxr-xr-x 3 gnu-tumix gnu-tumix 4096 Feb 26 08:49 0x0F-function_pointers
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x10-variadic_functions
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Dec 21 21:47 0x12-singly_linked_lists
+drwxr-xr-x 3 gnu-tumix gnu-tumix 4096 Mar 15 19:24 0x15-file_io
+drwxr-xr-x 3 gnu-tumix gnu-tumix 4096 Dec 23 19:50 0x17-doubly_linked_lists
+drwxr-xr-x 3 gnu-tumix gnu-tumix 4096 Mar 14 21:24 0x1C-makefiles
+-rw-r--r-- 1 gnu-tumix gnu-tumix   31 Dec 21 21:47 README.md
+
+../../0x00-hello_world:
+total 40
+-rwxr-xr-x 1 gnu-tumix gnu-tumix  31 Dec 21 21:47 0-preprocessor
+-rwxr-xr-x 1 gnu-tumix gnu-tumix  26 Dec 21 21:47 1-compiler
+-rwxr-xr-x 1 gnu-tumix gnu-tumix  38 Dec 21 21:47 100-intel
+-rw-r--r-- 1 gnu-tumix gnu-tumix 204 Dec 21 21:47 101-quote.c
+-rwxr-xr-x 1 gnu-tumix gnu-tumix  26 Dec 26 14:54 2-assembler
+-rwxr-xr-x 1 gnu-tumix gnu-tumix  33 Dec 21 21:47 3-name
+-rw-r--r-- 1 gnu-tumix gnu-tumix 267 Dec 21 21:47 4-puts.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 283 Dec 21 21:47 5-printf.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 493 Dec 26 15:02 6-size.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  29 Dec 21 21:47 README.md
+
+../../0x01-variables_if_else_while:
+total 76
+-rw-r--r-- 1 gnu-tumix gnu-tumix   361 Dec 21 21:47 0-positive_or_negative.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   500 Dec 21 21:47 1-last_digit.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   401 Dec 25 18:35 100-print_comb3.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   451 Dec 26 09:22 101-print_comb4.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   421 Dec 26 12:08 102-print_comb5.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   215 Dec 21 21:47 2-print_alphabet.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   272 Dec 21 21:47 3-print_alphabets.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   312 Dec 21 21:47 4-print_alphabt.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   215 Dec 21 21:47 5-print_numbers.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   211 Dec 21 21:47 6-print_numberz.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   215 Dec 21 21:47 7-print_tebahpla.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   227 Dec 21 21:47 8-print_base16.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   243 Dec 21 21:47 9-print_comb.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  1834 Dec 25 16:40 README.md
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16840 Feb 10 10:05 a.out
+
+../../0x02-functions_nested_loops:
+total 104
+-rw-r--r-- 1 gnu-tumix gnu-tumix   368 Dec 26 15:40 0-putchar.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   186 Dec 26 16:03 1-alphabet.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   154 Dec 27 15:01 10-add.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   624 Dec 28 21:42 100-times_table.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   257 Dec 28 23:12 101-natural.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   356 Dec 28 23:52 102-fibonacci.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   333 Dec 29 00:14 103-fibonacci.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   304 Dec 29 12:41 104-fibonacci.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   289 Dec 27 15:53 11-print_to_98.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   233 Dec 26 16:31 2-print_alphabet_x10.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   241 Dec 26 16:52 3-islower.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   266 Dec 27 08:35 4-isalpha.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   332 Dec 27 08:58 5-sign.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   239 Dec 27 09:13 6-abs.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   265 Dec 27 09:24 7-print_last_digit.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   348 Dec 27 09:45 8-24_hours.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   626 Dec 27 14:45 9-times_table.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  2420 Dec 29 12:33 README.md
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16688 Dec 29 13:03 a.out
+-rw-r--r-- 1 gnu-tumix gnu-tumix   330 Dec 21 21:47 main.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix   247 Dec 26 15:55 putchar.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix    98 Dec 29 13:03 test.c
+
+../../0x03-debugging:
+total 44
+-rw-r--r-- 1 gnu-tumix gnu-tumix   190 Dec 21 21:47 0-main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   256 Dec 21 21:47 1-main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   363 Dec 21 21:47 2-largest_number.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   742 Dec 21 21:47 3-print_remaining_days.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix    12 Dec 21 21:47 README.md
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16688 Dec 29 12:08 a.out
+-rw-r--r-- 1 gnu-tumix gnu-tumix   241 Dec 21 21:47 main.h
+
+../../0x04-more_functions_nested_loops:
+total 212
+-rw-r--r-- 1 gnu-tumix gnu-tumix   241 Dec 21 21:47 0-isupper.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   224 Dec 21 21:47 1-isdigit.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   345 Dec 30 10:45 10-print_triangle.c
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16704 Dec 30 12:14 100-prime_factor
+-rw-r--r-- 1 gnu-tumix gnu-tumix   409 Dec 30 12:38 100-prime_factor.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 54716 Dec 30 12:42 100-prime_factor.exe
+-rw-r--r-- 1 gnu-tumix gnu-tumix     0 Dec 30 11:37 101-print_number.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   249 Dec 21 21:47 2-mul.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   204 Dec 21 21:47 3-print_numbers.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   251 Dec 21 21:47 4-print_most_numbers.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   303 Dec 21 21:47 5-more_numbers.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   235 Dec 29 16:01 6-print_line.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   300 Dec 30 11:33 7-print_diagonal.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   293 Dec 29 20:37 8-print_square.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   362 Dec 29 21:29 9-fizz_buzz.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  1791 Dec 30 11:41 README.md
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16704 Dec 30 12:09 a.out
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16824 Dec 30 11:28 holb
+-rw-r--r-- 1 gnu-tumix gnu-tumix   357 Dec 21 21:47 main.h
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16840 Dec 30 11:34 mine
+-rw-r--r-- 1 gnu-tumix gnu-tumix   200 Dec 21 21:47 putchar.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   205 Dec 29 20:20 test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   204 Dec 29 22:26 test10.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   464 Dec 30 11:28 test7.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   176 Dec 29 20:38 test8.c
+
+../../0x05-pointers_arrays_strings:
+total 80
+-rw-r--r-- 1 gnu-tumix gnu-tumix   157 Dec 31 10:47 0-reset_to_98.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   210 Dec 31 11:03 1-swap.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   206 Feb  2 09:32 100-atoi.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   247 Jan  6 09:01 2-strlen.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   242 Jan  6 09:16 3-puts.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   288 Jan  7 08:11 4-print_rev.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   255 Jan  7 11:09 5-rev_string.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   237 Jan  7 13:16 6-puts2.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   306 Jan  7 20:31 7-puts_half.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   279 Jan  7 21:47 8-print_array.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   299 Jan  7 22:05 9-strcpy.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  1552 Jan 14 08:12 README.md
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16920 Jan  7 22:07 a.out
+-rw-r--r-- 1 gnu-tumix gnu-tumix   374 Jan  6 09:15 main.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix   200 Dec 31 10:53 putchar.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   237 Jan  7 22:07 test.c
+
+../../0x06-pointers_arrays_strings:
+total 48
+-rw-r--r-- 1 gnu-tumix gnu-tumix 335 Dec 21 21:47 0-strcat.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 377 Dec 21 21:47 1-strncat.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 462 Dec 21 21:47 100-rot13.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 299 Dec 21 21:47 2-strncpy.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 310 Dec 21 21:47 3-strcmp.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 359 Dec 21 21:47 4-rev_array.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 371 Dec 21 21:47 5-string_toupper.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 591 Dec 21 21:47 6-cap_string.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 356 Dec 21 21:47 7-leet.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 142 Dec 21 21:47 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix 511 Dec 21 21:47 main.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix 324 Dec 21 21:47 test.c
+
+../../0x07-pointers_arrays_strings:
+total 36
+-rw-r--r-- 1 gnu-tumix gnu-tumix 381 Dec 21 21:47 0-memset.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 341 Dec 21 21:47 1-memcpy.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 396 Dec 21 21:47 2-strchr.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 454 Dec 21 21:47 3-strspn.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 509 Dec 21 21:47 4-strpbrk.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 593 Dec 21 21:47 5-strstr.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 333 Dec 21 21:47 7-print_chessboard.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  52 Dec 21 21:47 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix 408 Dec 21 21:47 main.h
+
+../../0x08-recursion:
+total 268
+-rw-r--r-- 1 gnu-tumix gnu-tumix   236 Mar 15 09:40 0-puts_recursion.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   155 Feb  5 12:44 0-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   215 Feb  5 18:39 1-print_rev_recursion.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   156 Feb  5 16:37 1-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   517 Feb 10 09:55 100-is_palindrome.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   322 Feb  5 23:59 2-strlen_recursion.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   210 Feb  5 23:01 2-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   334 Feb  6 01:50 3-factorial.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   327 Feb  6 01:46 3-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   369 Feb  6 11:31 4-pow_recursion.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   467 Feb  6 11:29 4-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   725 Feb  7 15:45 5-sqrt_recursion.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   455 Feb  6 12:05 5-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   257 Feb  9 11:11 6-is_prime_number.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  1444 Feb  9 11:13 README.md
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16744 Feb  6 12:22 a.out
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 21656 Feb  6 01:49 factorial
+-rw-r--r-- 1 gnu-tumix gnu-tumix   404 Feb  6 12:33 iter-sqrt.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   419 Feb  6 12:26 iter-sqrt_test.c
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 21768 Feb  6 12:33 iter_sqrt
+-rw-r--r-- 1 gnu-tumix gnu-tumix   339 Feb  9 12:05 main.h
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 21840 Feb  9 21:51 palindrome
+-rw-r--r-- 1 gnu-tumix gnu-tumix   372 Feb  9 11:36 palindrome-test.c
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 21712 Feb  6 11:30 pow
+-rw-r--r-- 1 gnu-tumix gnu-tumix   247 Feb  5 12:47 putchar.c
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 21888 Feb  7 15:45 sqrt
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 21712 Feb  6 00:02 strlen
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 21600 Feb  5 18:53 test
+
+../../0x09-static_libraries:
+total 92
+-rw-r--r-- 1 gnu-tumix gnu-tumix    36 Dec 21 21:47 README.md
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16688 Feb 11 18:19 a.out
+-rwxr-xr-x 1 gnu-tumix gnu-tumix    87 Dec 21 21:47 create_static_lib.sh
+-rw-r--r-- 1 gnu-tumix gnu-tumix 31298 Dec 21 21:47 libmy.a
+-rw-r--r-- 1 gnu-tumix gnu-tumix   148 Feb 10 10:35 main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   689 Dec 21 21:47 main.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix   252 Feb 11 18:19 num.c
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 17784 Feb 10 10:54 qoute
+
+../../0x0A-argc_argv:
+total 36
+-rw-r--r-- 1 gnu-tumix gnu-tumix 287 Dec 21 21:47 0-whatsmyname.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 290 Dec 21 21:47 1-args.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 900 Dec 21 21:47 100-change.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 325 Dec 21 21:47 2-args.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 371 Dec 21 21:47 3-mul.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 511 Dec 21 21:47 4-add.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  30 Dec 21 21:47 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix 218 Dec 21 21:47 _putchar.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 121 Dec 21 21:47 main.h
+
+../../0x0B-malloc_free:
+total 8
+-rw-r--r-- 1 gnu-tumix gnu-tumix  73 Dec 21 21:47 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix 252 Dec 21 21:47 main.h
+
+../../0x0C-more_malloc_free:
+total 28
+-rw-r--r-- 1 gnu-tumix gnu-tumix 250 Dec 21 21:47 0-malloc_checked.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 895 Dec 21 21:47 1-string_nconcat.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 489 Dec 21 21:47 2-calloc.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  37 Dec 21 21:47 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix 218 Dec 21 21:47 _putchar.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 286 Dec 21 21:47 main.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix 267 Dec 21 21:47 test.c
+
+../../0x0D-preprocessor:
+total 24
+-rw-r--r-- 1 gnu-tumix gnu-tumix  83 Dec 21 21:47 0-object_like_macro.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix  60 Dec 21 21:47 1-pi.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix 133 Dec 21 21:47 2-main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 115 Dec 21 21:47 3-function_like_macro.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix  67 Dec 21 21:47 4-sum.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix  38 Dec 21 21:47 README.md
+
+../../0x0E-structures_typedef:
+total 28
+-rw-r--r-- 1 gnu-tumix gnu-tumix 310 Feb 21 17:45 0.test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 369 Feb 22 20:18 1-init_dog.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 417 Feb 22 20:10 2-print_dog.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 459 Feb 22 19:16 4-new_dog.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 227 Feb 22 20:24 5-free_dog.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 933 Feb 22 19:05 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix 435 Feb 22 19:17 dog.h
+
+../../0x0F-function_pointers:
+total 40
+-rw-r--r-- 1 gnu-tumix gnu-tumix  206 Feb 26 08:43 0-print_name.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  386 Feb 26 08:44 1-array_iterator.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix    0 Feb 24 09:38 100-main_opcodes.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  579 Feb 25 08:34 2-int_index.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  420 Feb 25 12:12 3-calc.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix  505 Feb 26 08:52 3-get_op_func.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  615 Feb 25 14:10 3-main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  961 Feb 25 10:39 3-op_functions.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  376 Feb 25 08:51 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix  275 Feb 25 08:24 function_pointers.h
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Feb 26 08:49 test
+
+../../0x0F-function_pointers/test:
+total 40
+-rw-r--r-- 1 gnu-tumix gnu-tumix   885 Feb 24 09:51 0-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   611 Feb 24 18:23 1-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  1107 Feb 25 08:35 2-test.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   247 Dec 21 21:47 _putchar.c
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 23400 Feb 25 14:14 calc
+
+../../0x10-variadic_functions:
+total 20
+-rw-r--r-- 1 gnu-tumix gnu-tumix 449 Dec 21 21:47 0-sum_them_all.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 591 Dec 21 21:47 1-print_numbers.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 769 Dec 21 21:47 2-print_strings.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 591 Dec 21 21:47 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix 351 Dec 21 21:47 variadic_functions.h
+
+../../0x12-singly_linked_lists:
+total 28
+-rw-r--r-- 1 gnu-tumix gnu-tumix 451 Dec 21 21:47 0-print_list.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 268 Dec 21 21:47 1-list_len.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 449 Dec 21 21:47 2-add_node.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 657 Dec 21 21:47 3-add_node_end.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 475 Dec 21 21:47 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix 247 Dec 21 21:47 _putchar.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 612 Dec 21 21:47 lists.h
+
+../../0x15-file_io:
+total 28
+-rw-r--r-- 1 gnu-tumix gnu-tumix  755 Mar 15 09:44 0-read_textfile.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  611 Mar 15 10:24 1-create_file.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  571 Mar 15 17:18 2-append_text_to_file.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix 1102 Mar 15 19:56 3-cp.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  249 Mar 15 17:27 README.md
+-rw-r--r-- 1 gnu-tumix gnu-tumix  335 Mar 15 18:29 main.h
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Mar 15 19:56 test
+
+../../0x15-file_io/test:
+total 68
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 17096 Mar 15 09:30 0-main
+-rw-r--r-- 1 gnu-tumix gnu-tumix   433 Mar 15 07:53 0-main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   345 Mar 15 10:18 1-main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   353 Mar 15 17:18 2-main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   468 Mar 14 23:01 Requiescat
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16984 Mar 15 19:56 cp
+-rw-r--r-- 1 gnu-tumix gnu-tumix 12288 Mar 15 19:58 file1
+
+../../0x17-doubly_linked_lists:
+total 48
+-rw-r--r-- 1 gnu-tumix gnu-tumix   415 Dec 21 21:47 0-print_dlistint.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   350 Dec 21 21:47 1-dlistint_len.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   715 Dec 21 21:47 2-add_dnodeint.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   646 Dec 23 19:48 3-add_dnodeint_end.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   568 Dec 23 19:16 3-main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix   183 Dec 23 17:15 README.md
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16952 Dec 23 19:50 a.out
+-rw-r--r-- 1 gnu-tumix gnu-tumix   600 Dec 23 18:13 lists.h
+
+../../0x1C-makefiles:
+total 28
+-rw-r--r-- 1 gnu-tumix gnu-tumix   53 Mar  2 16:19 0-Makefile
+-rw-r--r-- 1 gnu-tumix gnu-tumix   68 Mar  4 20:14 1-Makefile
+-rw-r--r-- 1 gnu-tumix gnu-tumix  102 Mar  2 21:29 2-Makefile
+-rw-r--r-- 1 gnu-tumix gnu-tumix  196 Mar  5 06:36 3-Makefile
+-rw-r--r-- 1 gnu-tumix gnu-tumix  248 Mar  5 06:34 4-Makefile
+-rw-r--r-- 1 gnu-tumix gnu-tumix  143 Mar  1 05:27 README.md
+drwxr-xr-x 2 gnu-tumix gnu-tumix 4096 Mar 14 21:24 test
+
+../../0x1C-makefiles/test:
+total 44
+-rw-r--r-- 1 gnu-tumix gnu-tumix   106 Mar  2 17:34 m.h
+-rw-r--r-- 1 gnu-tumix gnu-tumix   128 Mar  1 08:27 main.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  1544 Mar  2 17:33 main.o
+-rwxr-xr-x 1 gnu-tumix gnu-tumix 16760 Mar  2 21:34 school
+-rw-r--r-- 1 gnu-tumix gnu-tumix  1441 Mar  1 08:28 school.c
+-rw-r--r-- 1 gnu-tumix gnu-tumix  4112 Mar  2 17:33 school.o
