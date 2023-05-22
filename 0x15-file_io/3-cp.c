@@ -25,7 +25,7 @@ void cp(char *file_from, char *file_to)
 	do {
 		if (r == -1 || o1 == -1)
 		{
-			dprintf(2, "Error: Can't read from file %s\n", file_from);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 			free(buffer);
 			exit(98);
 		}
@@ -33,7 +33,7 @@ void cp(char *file_from, char *file_to)
 		w = write(o2, buffer, r);
 		if (w == -1 || o2 == -1)
 		{
-			dprintf(2, "Error: Can't write to %s\n", file_to);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 			free(buffer);
 			exit(99);
 		}
@@ -91,7 +91,7 @@ int main(int total_file, char **filename)
 {
 	if (total_file != 3)
 	{
-		dprintf(2, "Usage: cp file_from file_to\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 	cp(filename[1], filename[2]);
