@@ -1,28 +1,11 @@
 /*
- * Project 0x15: Task 3
+ * Project 0x15: Task 3 (3-cp.c)
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"
 void cp(char *, char *);
 void *alloc_mem(char *);
-/**
- * main - program start
- * @total_file: total args
- * @filename: char array of args
- *
- * Return: returns 0.
- */
-int main(int total_file, char **filename)
-{
-	if (total_file != 3)
-	{
-		dprintf(2, "Usage: cp file_from file_to\n");
-		exit(97);
-	}
-	cp(filename[1], filename[2]);
-	return (0);
-}
-
+void close_file(long);
 /**
  * cp - copies one file to another
  * @file_from: file to be copied
@@ -31,7 +14,7 @@ int main(int total_file, char **filename)
  */
 void cp(char *file_from, char *file_to)
 {
-	ssize_t o1, o2, w, r, c1, c2;
+	ssize_t o1, o2, w, r;
 	char *buffer;
 
 	buffer = alloc_mem(file_to);
@@ -43,6 +26,7 @@ void cp(char *file_from, char *file_to)
 		if (r == -1 || o1 == -1)
 		{
 			dprintf(2, "Error: Can't read from file %s\n", file_from);
+			free(buffer);
 			exit(98);
 		}
 
@@ -50,6 +34,7 @@ void cp(char *file_from, char *file_to)
 		if (w == -1 || o2 == -1)
 		{
 			dprintf(2, "Error: Can't write to %s\n", file_to);
+			free(buffer);
 			exit(99);
 		}
 
@@ -57,13 +42,9 @@ void cp(char *file_from, char *file_to)
 		o2 = open(file_to, O_WRONLY | O_APPEND);
 	} while (r > 0);
 
-	c1 = close(o1);
-	if (c1 == -1)
-		dprintf(2, "Error: Can't close fd %ld\n", o1);
-
-	c2 = close(o2);
-	if (c2 == -1)
-		dprintf(2, "Error: Can't close fd %ld\n", o2);
+	free(buffer);
+	close_file(01);
+	close_file(o2);
 }
 
 /**
@@ -83,4 +64,36 @@ void *alloc_mem(char *filename)
 		exit(99);
 	}
 	return (buf);
+}
+
+/**
+ * close_file - closes a file descriptor
+ * @fd: file descriptor to close
+ */
+void close_file(long int fd)
+{
+
+	if (close(fd) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %ld\n", fd);
+		exit(100);
+	}
+}
+
+/**
+ * main - program start
+ * @total_file: total args
+ * @filename: char array of args
+ *
+ * Return: returns 0.
+ */
+int main(int total_file, char **filename)
+{
+	if (total_file != 3)
+	{
+		dprintf(2, "Usage: cp file_from file_to\n");
+		exit(97);
+	}
+	cp(filename[1], filename[2]);
+	return (0);
 }
