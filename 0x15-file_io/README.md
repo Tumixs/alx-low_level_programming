@@ -8,6 +8,7 @@ Title | Description
 [`1. Under the snow`](./1-create_file.c) | A function that createsa file.
 [`2. Speak gently, she can hear`](./2-append_text_to_file.c) | A function that appends text at the end of a file.
 [`3. cp`](./3-cp.c) | A program that copies the content of a file to another file.
+[`4. elf`](./100-elf_header.c) | A Program that prints sections of the elf header of an ELF file.
 -----
 
 ## :camel: Additional Resources
