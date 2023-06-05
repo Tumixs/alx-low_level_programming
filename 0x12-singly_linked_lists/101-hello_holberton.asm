@@ -1,17 +1,12 @@
-SYS_EXIT equ 1
-SYS_WRITE equ 4
-STDOUT equ 1
+	global	main
+	extern	printf
 
-section .text
-	global main
+	section	.text
 main:
-	global _start
-	mov eax, SYS_WRITE
-	mov ebx, STDOUT
-	mov ecx, message
-	mov edx, msglen
-	int 0x80
-
-section .data
-	message db "Hello, Holberton", 0xa
-	msglen equ $ - message
+	mov	rdi, message
+	push rdi
+	call	printf
+	add rsp, 8
+	ret
+message:
+	db	"Hello, Holberton", 0xa, 0
