@@ -1,4 +1,6 @@
-/* Project 0x08-Recursion: Task 2 */
+/* Project 0x08: 2-strlen_recursion
+ * Author: Asere Oluwatumise S.
+ */
 #include "main.h"
 /**
  * _strlen_recursion - finds the lenght of a string
