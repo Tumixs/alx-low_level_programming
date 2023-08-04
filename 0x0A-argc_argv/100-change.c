@@ -1,11 +1,14 @@
+/* Project 0x09: 100-change.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "main.h"
 
 /**
-* main - a program that prints the minimum number of coins to make change
-* @argc: the number of command-line arguments
-* @argv: an array of strings that contain the command-line arguments
-* Return: returns 0 (sucessful), otherwise returns 1 on error
-*/
+ * main - a program that prints the minimum number of coins to make change
+ * @argc: the number of command-line arguments
+ * @argv: an array of strings that contain the command-line arguments
+ * Return: returns 0 (sucessful), otherwise returns 1 on error
+ */
 int main(int argc, char *argv[])
 {
 	int cents;
