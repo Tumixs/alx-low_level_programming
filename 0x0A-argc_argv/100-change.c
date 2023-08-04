@@ -1,4 +1,5 @@
-/* Project 0x09: 100-change.c
+/*
+ * Project 0x09: 100-change.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"

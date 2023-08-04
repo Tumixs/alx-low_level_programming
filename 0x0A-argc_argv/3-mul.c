@@ -1,4 +1,5 @@
-/* Project 0x09: 3-mul.c
+/*
+ * Project 0x09: 3-mul.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"

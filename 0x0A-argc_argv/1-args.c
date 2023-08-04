@@ -1,4 +1,5 @@
-/* Project 0x09: 1-args.c
+/*
+ * Project 0x09: 1-args.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"

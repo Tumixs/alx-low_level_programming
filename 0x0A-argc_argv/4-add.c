@@ -1,4 +1,5 @@
-/* Project 0x09: 4-add.c
+/*
+ * Project 0x09: 4-add.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"

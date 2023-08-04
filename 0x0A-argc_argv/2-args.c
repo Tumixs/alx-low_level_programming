@@ -1,4 +1,5 @@
-/* Project 0x09: 2-args.c
+/*
+ * Project 0x09: 2-args.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"
@@ -9,7 +10,7 @@
  *
  * Return: returns 0
  */
-int main(int argc UNUSED, char *argv[])
+int main(int UNUSED argc, char *argv[])
 {
 	int i;
 

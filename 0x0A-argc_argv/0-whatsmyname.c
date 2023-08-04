@@ -1,4 +1,5 @@
-/* Project 0x09: 0-whatsmyname.c
+/*
+ * Project 0x09: 0-whatsmyname.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"
@@ -10,7 +11,7 @@
  *
  * Return: returns 0
  */
-int main(int argc UNUSED, char *argv[])
+int main(int UNUSED argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 	return (0);
