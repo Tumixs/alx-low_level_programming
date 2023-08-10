@@ -12,3 +12,4 @@ Title | Description
 [7. Winning is only half of it. Having fun is the other half](./7-puts_half.c) | A function that prints half of a string, followed by a new line.
 [8-print_array.c](./8-print_array.c) | Prints n elements of an array of integers, followed by a newline.
 [9. strcpy](./9-strcpy.c) | Copies a string from one buffer to another (custom strcpy function(std.lib function)).
+[10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers](./100-atoi.c) | Converts a string to an integer. Similar to the standard lib. function *atoi*.

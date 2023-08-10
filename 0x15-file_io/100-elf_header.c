@@ -11,7 +11,6 @@ void *alloc_mem(void);
 int print_elf(Elf64_Ehdr *);
 /*Failure handler */
 void fail(char *);
-
 /**
  * readelf - Retrieves sections of an elf file header to a buffer
  * @argc: number of elf files to read
@@ -44,6 +43,7 @@ Elf64_Ehdr *readelf(int argc, char **argv)
 	}
 	return (buffer);
 }
+
 /**
  * print_elf - prints retrieved elf header to `stdout`
  * @header: buffer holding elf section retrieved(elf-header)

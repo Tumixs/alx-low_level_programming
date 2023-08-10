@@ -20,5 +20,6 @@ int main(void)
 	printf("%u\n", n);
 	n = flip_bits(ULONG_MAX, 0);
 	printf("%u\n", n);
+	printf("%lu\n", ULONG_MAX);
 	return (0);
 }
