@@ -20,21 +20,26 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int len2 = 0;
 	unsigned int total_len;
 
-	for (; s1[len1]; len1++)
-		;
-	for (; s2[len2]; len2++)
-		;
+	/* Create string buffer */
+	if (s1)
+		for (; s1[len1]; len1++)
+			;
+	if (s2)
+		for (; s2[len2]; len2++)
+			;
 	total_len = len1 + len2;
 	buf = malloc(sizeof(char) * total_len);
 	if (buf == NULL)
 		return (NULL);
+	/* Insert string to buffer */
 	len1 = 0;
 	len2 = 0;
-	for (; s1[len1] != '\0'; len1++)
-		buf[len1] = s1[len1];
-	printf("%d\n", len1);
-	for (; s2[len2] && len2 <= n; len2++, len1++)
-		buf[len1] = s2[len2];
+	if (s1)
+		for (; s1[len1] != '\0'; len1++)
+			buf[len1] = s1[len1];
+	if (s2)
+		for (; s2[len2] && len2 <= n; len2++, len1++)
+			buf[len1] = s2[len2];
 	buf[len1] = '\0';
 	return (buf);
 }
