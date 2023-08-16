@@ -13,16 +13,21 @@
  */
 int main(int argc, char *argv[])
 {
-	int bytes = 0;
+	int bytes;
 	int count;
 	int (*code)(int, char **) = main;
 
 	if (argc != 2)
 	{
-		printf("error\n");
+		printf("Error\n");
 		exit(1);
 	}
 	bytes = atoi(argv[1]);
+	if (bytes < 0)
+	{
+		printf("Error\n");
+		exit(2);
+	}
 
 	for (count = 0; count < bytes; count++)
 	{
