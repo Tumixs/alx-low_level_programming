@@ -1,4 +1,7 @@
-/* Project 0x0F: task 0 */
+/*
+ * File: 0-print_name.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "function_pointers.h"
 /**
  * print_name - Prints a name

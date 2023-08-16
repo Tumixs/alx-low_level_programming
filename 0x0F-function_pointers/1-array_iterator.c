@@ -1,4 +1,7 @@
-/* Project 0x0E: Task 1 */
+/*
+ * File: 1-array_iterator.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "function_pointers.h"
 /**
  * array_iterator - executes a function given as parameter on each

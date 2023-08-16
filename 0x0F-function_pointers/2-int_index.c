@@ -1,4 +1,7 @@
-/* A function that searches for an integer */
+/*
+ * File: 2-int_index.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "function_pointers.h"
 /**
  * int_index - Searches for an integer
