@@ -1,4 +1,7 @@
-/* Operation functons */
+/*
+ * File: 3-op_functions.c
+ * Operation functions
+ */
 #include "3-calc.h"
 
 /**

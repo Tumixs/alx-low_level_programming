@@ -1,4 +1,8 @@
-/* Project 0x0F: task 3_main file*/
+/*
+ * File: 3-main.c
+ * Author: Asere Oluwatumise S.
+ * Simple calculator
+ */
 #include "3-calc.h"
 /**
  * main - program start
@@ -28,12 +32,12 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	if (get_op_func(argv[2]) == NULL)
+	calc = get_op_func(argv[2]);
+	if (calc == NULL)
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	calc = get_op_func(argv[2]);
 	printf("%d\n", calc(num1, num2));
 	return (0);
 }
