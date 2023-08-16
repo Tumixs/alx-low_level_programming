@@ -4,6 +4,13 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * main - program start
+ * @argc: no of command-line args
+ * @argv: command-line args
+ *
+ * Return: 0 on success
+ */
 int main(int argc, char *argv[])
 {
 	int bytes = 0;
