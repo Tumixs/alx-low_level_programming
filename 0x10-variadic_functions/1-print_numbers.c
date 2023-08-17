@@ -1,3 +1,7 @@
+/*
+ * File: 1-print_numbers.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "variadic_functions.h"
 
 /**

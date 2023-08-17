@@ -1,5 +1,8 @@
+/*
+ * File: 0-sum_them_all.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "variadic_functions.h"
-
 /**
  * sum_them_all - adds up all its arguments
  * @n: number of arguments
