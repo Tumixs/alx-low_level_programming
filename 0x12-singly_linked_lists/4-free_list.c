@@ -1,5 +1,5 @@
 /*
- * Project 0x12: Singly linked list - Task 4
+ * 4-free_list.c
  * Author: Asere Oluwatumise S.
  */
 #include "lists.h"

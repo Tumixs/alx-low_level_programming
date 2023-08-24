@@ -1,3 +1,7 @@
+/*
+ * File: 1-list_len.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "lists.h"
 /**
  * list_len - determines the number of elements in

@@ -1,3 +1,7 @@
+/*
+ * File: 2-add_node.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "lists.h"
 
 /**

@@ -1,3 +1,7 @@
+/*
+ * File: 3-add_node_end.c
+ * Author: Asere Oluwatumise S.
+ */
 #include "lists.h"
 
 /**
@@ -25,11 +29,11 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (*head == NULL)
 		*head = new;
 	else
-		{
-			node = *head;
-			while (node->next != NULL)
-				node = node->next;
-			node->next = new;
-		}
+	{
+		node = *head;
+		while (node->next != NULL)
+			node = node->next;
+		node->next = new;
+	}
 	return (new);
 }

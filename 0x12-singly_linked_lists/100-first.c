@@ -1,5 +1,5 @@
 /*
- * Project 0x12: Task 5
+ * 100-first.c
  * Author: Asere Oluwatumise S.
  */
 #include <stdio.h>
