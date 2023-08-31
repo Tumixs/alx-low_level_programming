@@ -4,9 +4,9 @@
  */
 #include "main.h"
 /**
- * flip_bits - gets the number of bits to flipped to get another number
- * @n: number 1
- * @m: number 2
+ * flip_bits - Gets the number of bits to flipped to get another number
+ * @n: Number 1
+ * @m: Number 2
  *
  * Return: returns the number of bits to be flipped
  */
@@ -16,7 +16,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	while (xor > 0)
 	{
-		nbits += (xor & 1);
+		nbits += (xor&1);
 		xor >>= 1;
 	}
 	return (nbits);

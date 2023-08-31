@@ -4,8 +4,8 @@
  */
 #include "main.h"
 /**
- * print_binary - prints the binary represenation of a number
- * @n: number
+ * print_binary - Prints the binary represenation of a number
+ * @n: Number
  */
 void print_binary(unsigned long int n)
 {

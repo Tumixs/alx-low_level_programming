@@ -4,11 +4,11 @@
  */
 #include "main.h"
 /**
- * clear_bit - sets the bit at index to 0.
+ * clear_bit - Sets the bit at index to 0.
  * @n: number
- * @index: index of bit in number.
+ * @index: Index of bit in number.
  *
- * Return: returns 1 on success, otherwise -1
+ * Return: Returns 1 on success, otherwise -1
  */
 int clear_bit(unsigned long int *n, unsigned int index)
 {

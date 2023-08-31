@@ -4,11 +4,11 @@
  */
 #include "main.h"
 /**
- * set_bit - sets the value of bit at index to `1`
+ * set_bit - Sets the value of bit at index to `1`
  * @n: number
- * @index: index value of bit in number to set
+ * @index: The Index value of bit in number to set
  *
- * Return: returns 1 on success, otherwise -1
+ * Return: Returns 1 on success, otherwise -1
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {

@@ -4,11 +4,11 @@
  */
 #include "main.h"
 /**
- * binary_to_uint - convert binary to unsigned int
- * @b: string conataining binary figure
+ * binary_to_uint - Convert binary to unsigned int
+ * @b: String containing binary figure
  *
- * Return: returns the converted unsigned int,
- * if `b` is NULL or `b` contains any character that is not 0 or 1
+ * Return: Returns the converted unsigned int,
+ *	   if `b` is NULL or `b` contains any character that is not 0 or 1
  */
 int binary_to_uint(const char *b)
 {
