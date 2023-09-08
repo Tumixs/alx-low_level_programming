@@ -1,5 +1,5 @@
 /*
- * Project 0x15: File I/O - Task 0
+ * File: 0-read_textfile.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"

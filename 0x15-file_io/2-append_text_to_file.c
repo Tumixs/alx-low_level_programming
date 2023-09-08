@@ -1,5 +1,5 @@
 /*
- * Project 0x15: File I\O - task 2
+ * 2-append_text_to_file.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"

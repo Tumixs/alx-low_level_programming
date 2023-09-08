@@ -1,5 +1,5 @@
 /*
- * Project 0x15: file I/O - Task 1
+ * File: 1-create_file.c
  * Author: Asere Oluwatumise s.
  */
 #include "main.h"

@@ -1,7 +1,7 @@
 /*
- * Prints sections of an elf header
  * Author: Asere Oluwatumise .S
  * File: 100-elf_header.c
+ * Prints sections of an elf header
  */
 #include "main.h"
 #include <stdarg.h>

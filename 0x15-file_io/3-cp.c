@@ -1,5 +1,5 @@
 /*
- * Project 0x15: Task 3 (3-cp.c)
+ * File: 3-cp.c
  * Author: Asere Oluwatumise S.
  */
 #include "main.h"
